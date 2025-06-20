@@ -122,11 +122,42 @@
             this.label31 = new System.Windows.Forms.Label();
             this.listBox4 = new System.Windows.Forms.ListBox();
             this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.listBox5 = new System.Windows.Forms.ListBox();
             this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.label41 = new System.Windows.Forms.Label();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.listBox6 = new System.Windows.Forms.ListBox();
+            this.panel34 = new System.Windows.Forms.Panel();
             this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.listBox7 = new System.Windows.Forms.ListBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -179,33 +210,8 @@
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.listBox6 = new System.Windows.Forms.ListBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.label41 = new System.Windows.Forms.Label();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label45 = new System.Windows.Forms.Label();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -221,7 +227,14 @@
             this.tabPage11.SuspendLayout();
             this.tabPage12.SuspendLayout();
             this.tabPage13.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.tabPage14.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.tabPage15.SuspendLayout();
+            this.panel38.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage7.SuspendLayout();
@@ -239,11 +252,6 @@
             this.panel6.SuspendLayout();
             this.panel2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox11.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -1116,6 +1124,140 @@
             this.tabPage13.Text = "Commands";
             this.tabPage13.UseVisualStyleBackColor = true;
             // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.tableLayoutPanel2);
+            this.groupBox8.Location = new System.Drawing.Point(200, 178);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(258, 177);
+            this.groupBox8.TabIndex = 15;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Create Command";
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.0813F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9187F));
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 19);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 8;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(246, 152);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label40);
+            this.groupBox7.Controls.Add(this.comboBox6);
+            this.groupBox7.Controls.Add(this.label39);
+            this.groupBox7.Controls.Add(this.comboBox5);
+            this.groupBox7.Controls.Add(this.comboBox4);
+            this.groupBox7.Controls.Add(this.comboBox3);
+            this.groupBox7.Controls.Add(this.label37);
+            this.groupBox7.Controls.Add(this.label38);
+            this.groupBox7.Location = new System.Drawing.Point(200, 62);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(258, 110);
+            this.groupBox7.TabIndex = 9;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Command Destination";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(30, 85);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(58, 13);
+            this.label40.TabIndex = 13;
+            this.label40.Text = "Crouching:";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(94, 82);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(158, 21);
+            this.comboBox6.TabIndex = 14;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(15, 64);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(73, 13);
+            this.label39.TabIndex = 12;
+            this.label39.Text = "Standing (far):";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(94, 61);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(158, 21);
+            this.comboBox5.TabIndex = 13;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(94, 40);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(158, 21);
+            this.comboBox4.TabIndex = 12;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(94, 19);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(158, 21);
+            this.comboBox3.TabIndex = 0;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(66, 22);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(22, 13);
+            this.label37.TabIndex = 10;
+            this.label37.Text = "Air:";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(6, 43);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(82, 13);
+            this.label38.TabIndex = 11;
+            this.label38.Text = "Standing (near):";
+            // 
+            // panel33
+            // 
+            this.panel33.Location = new System.Drawing.Point(282, 18);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(98, 27);
+            this.panel33.TabIndex = 8;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(197, 24);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(79, 13);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "Command time:";
+            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -1158,14 +1300,198 @@
             this.tabPage14.Text = "CPU Algorithm";
             this.tabPage14.UseVisualStyleBackColor = true;
             // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.tableLayoutPanel3);
+            this.groupBox11.Location = new System.Drawing.Point(421, 170);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(234, 195);
+            this.groupBox11.TabIndex = 16;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Create Algorithm";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.0813F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9187F));
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 19);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 8;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(222, 170);
+            this.tableLayoutPanel3.TabIndex = 0;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.checkBox7);
+            this.groupBox9.Controls.Add(this.label43);
+            this.groupBox9.Controls.Add(this.checkBox6);
+            this.groupBox9.Controls.Add(this.panel37);
+            this.groupBox9.Controls.Add(this.groupBox10);
+            this.groupBox9.Location = new System.Drawing.Point(421, 3);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(234, 161);
+            this.groupBox9.TabIndex = 8;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Algorithm Terms";
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(12, 79);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(126, 17);
+            this.checkBox7.TabIndex = 13;
+            this.checkBox7.Text = "Opponent is in the air";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(9, 25);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(58, 13);
+            this.label43.TabIndex = 11;
+            this.label43.Text = "Probability:";
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(12, 56);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(99, 17);
+            this.checkBox6.TabIndex = 12;
+            this.checkBox6.Text = "You\'re in the air";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // panel37
+            // 
+            this.panel37.Location = new System.Drawing.Point(73, 21);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(54, 23);
+            this.panel37.TabIndex = 10;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label42);
+            this.groupBox10.Controls.Add(this.panel36);
+            this.groupBox10.Controls.Add(this.label41);
+            this.groupBox10.Controls.Add(this.panel35);
+            this.groupBox10.Location = new System.Drawing.Point(6, 112);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(222, 43);
+            this.groupBox10.TabIndex = 9;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Time";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(159, 19);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(41, 13);
+            this.label42.TabIndex = 10;
+            this.label42.Text = "in dots.";
+            // 
+            // panel36
+            // 
+            this.panel36.Location = new System.Drawing.Point(99, 14);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(54, 23);
+            this.panel36.TabIndex = 9;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(66, 19);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(27, 13);
+            this.label41.TabIndex = 8;
+            this.label41.Text = "from";
+            // 
+            // panel35
+            // 
+            this.panel35.Location = new System.Drawing.Point(6, 14);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(54, 23);
+            this.panel35.TabIndex = 7;
+            // 
+            // listBox6
+            // 
+            this.listBox6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.listBox6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBox6.FormattingEnabled = true;
+            this.listBox6.Location = new System.Drawing.Point(0, 0);
+            this.listBox6.Name = "listBox6";
+            this.listBox6.Size = new System.Drawing.Size(178, 368);
+            this.listBox6.TabIndex = 7;
+            // 
+            // panel34
+            // 
+            this.panel34.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel34.Location = new System.Drawing.Point(175, 0);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(240, 368);
+            this.panel34.TabIndex = 6;
+            // 
             // tabPage15
             // 
+            this.tabPage15.Controls.Add(this.panel38);
+            this.tabPage15.Controls.Add(this.label44);
+            this.tabPage15.Controls.Add(this.listBox7);
+            this.tabPage15.Controls.Add(this.checkBox8);
             this.tabPage15.Location = new System.Drawing.Point(4, 22);
             this.tabPage15.Name = "tabPage15";
             this.tabPage15.Size = new System.Drawing.Size(658, 368);
             this.tabPage15.TabIndex = 6;
             this.tabPage15.Text = "Story";
             this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // panel38
+            // 
+            this.panel38.Controls.Add(this.comboBox7);
+            this.panel38.Controls.Add(this.label45);
+            this.panel38.Location = new System.Drawing.Point(184, 26);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(471, 339);
+            this.panel38.TabIndex = 16;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(3, 356);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(57, 9);
+            this.label44.TabIndex = 15;
+            this.label44.Text = "Free space: XX";
+            // 
+            // listBox7
+            // 
+            this.listBox7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.listBox7.FormattingEnabled = true;
+            this.listBox7.Location = new System.Drawing.Point(0, 26);
+            this.listBox7.Name = "listBox7";
+            this.listBox7.Size = new System.Drawing.Size(178, 329);
+            this.listBox7.TabIndex = 14;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(3, 3);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(113, 17);
+            this.checkBox8.TabIndex = 13;
+            this.checkBox8.Text = "Enable story mode";
+            this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // listBox3
             // 
@@ -1678,281 +2004,23 @@
             this.listBox1.Size = new System.Drawing.Size(120, 400);
             this.listBox1.TabIndex = 0;
             // 
-            // label36
+            // label45
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(197, 24);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(79, 13);
-            this.label36.TabIndex = 7;
-            this.label36.Text = "Command time:";
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(41, 38);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(38, 13);
+            this.label45.TabIndex = 12;
+            this.label45.Text = "Demo:";
             // 
-            // panel33
+            // comboBox7
             // 
-            this.panel33.Location = new System.Drawing.Point(282, 18);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(98, 27);
-            this.panel33.TabIndex = 8;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.label40);
-            this.groupBox7.Controls.Add(this.comboBox6);
-            this.groupBox7.Controls.Add(this.label39);
-            this.groupBox7.Controls.Add(this.comboBox5);
-            this.groupBox7.Controls.Add(this.comboBox4);
-            this.groupBox7.Controls.Add(this.comboBox3);
-            this.groupBox7.Controls.Add(this.label37);
-            this.groupBox7.Controls.Add(this.label38);
-            this.groupBox7.Location = new System.Drawing.Point(200, 62);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(258, 110);
-            this.groupBox7.TabIndex = 9;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Command Destination";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(94, 19);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(158, 21);
-            this.comboBox3.TabIndex = 0;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(66, 22);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(22, 13);
-            this.label37.TabIndex = 10;
-            this.label37.Text = "Air:";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(6, 43);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(82, 13);
-            this.label38.TabIndex = 11;
-            this.label38.Text = "Standing (near):";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(15, 64);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(73, 13);
-            this.label39.TabIndex = 12;
-            this.label39.Text = "Standing (far):";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(30, 85);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(58, 13);
-            this.label40.TabIndex = 13;
-            this.label40.Text = "Crouching:";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(94, 40);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(158, 21);
-            this.comboBox4.TabIndex = 12;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(94, 61);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(158, 21);
-            this.comboBox5.TabIndex = 13;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(94, 82);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(158, 21);
-            this.comboBox6.TabIndex = 14;
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.tableLayoutPanel2);
-            this.groupBox8.Location = new System.Drawing.Point(200, 178);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(258, 177);
-            this.groupBox8.TabIndex = 15;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Create Command";
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.0813F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9187F));
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 19);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 8;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(246, 152);
-            this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // panel34
-            // 
-            this.panel34.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel34.Location = new System.Drawing.Point(175, 0);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(240, 368);
-            this.panel34.TabIndex = 6;
-            // 
-            // listBox6
-            // 
-            this.listBox6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.listBox6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.Location = new System.Drawing.Point(0, 0);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(178, 368);
-            this.listBox6.TabIndex = 7;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.checkBox7);
-            this.groupBox9.Controls.Add(this.label43);
-            this.groupBox9.Controls.Add(this.checkBox6);
-            this.groupBox9.Controls.Add(this.panel37);
-            this.groupBox9.Controls.Add(this.groupBox10);
-            this.groupBox9.Location = new System.Drawing.Point(421, 3);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(234, 161);
-            this.groupBox9.TabIndex = 8;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Algorithm Terms";
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.label42);
-            this.groupBox10.Controls.Add(this.panel36);
-            this.groupBox10.Controls.Add(this.label41);
-            this.groupBox10.Controls.Add(this.panel35);
-            this.groupBox10.Location = new System.Drawing.Point(6, 112);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(222, 43);
-            this.groupBox10.TabIndex = 9;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Time";
-            // 
-            // panel35
-            // 
-            this.panel35.Location = new System.Drawing.Point(6, 14);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(54, 23);
-            this.panel35.TabIndex = 7;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(66, 19);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(27, 13);
-            this.label41.TabIndex = 8;
-            this.label41.Text = "from";
-            // 
-            // panel36
-            // 
-            this.panel36.Location = new System.Drawing.Point(99, 14);
-            this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(54, 23);
-            this.panel36.TabIndex = 9;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(159, 19);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(41, 13);
-            this.label42.TabIndex = 10;
-            this.label42.Text = "in dots.";
-            // 
-            // panel37
-            // 
-            this.panel37.Location = new System.Drawing.Point(73, 21);
-            this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(54, 23);
-            this.panel37.TabIndex = 10;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(9, 25);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(58, 13);
-            this.label43.TabIndex = 11;
-            this.label43.Text = "Probability:";
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(12, 56);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(99, 17);
-            this.checkBox6.TabIndex = 12;
-            this.checkBox6.Text = "You\'re in the air";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(12, 79);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(126, 17);
-            this.checkBox7.TabIndex = 13;
-            this.checkBox7.Text = "Opponent is in the air";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.tableLayoutPanel3);
-            this.groupBox11.Location = new System.Drawing.Point(421, 170);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(234, 195);
-            this.groupBox11.TabIndex = 16;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Create Algorithm";
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.0813F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9187F));
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 19);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 8;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(222, 170);
-            this.tableLayoutPanel3.TabIndex = 0;
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(85, 35);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(158, 21);
+            this.comboBox7.TabIndex = 13;
             // 
             // Main
             // 
@@ -1991,7 +2059,19 @@
             this.tabPage12.PerformLayout();
             this.tabPage13.ResumeLayout(false);
             this.tabPage13.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.tabPage14.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.tabPage15.ResumeLayout(false);
+            this.tabPage15.PerformLayout();
+            this.panel38.ResumeLayout(false);
+            this.panel38.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
@@ -2018,14 +2098,6 @@
             this.panel2.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            this.groupBox11.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2210,6 +2282,12 @@
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Panel panel35;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.ListBox listBox7;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.Label label45;
     }
 }
 
