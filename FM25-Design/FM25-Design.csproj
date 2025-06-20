@@ -70,6 +70,12 @@
     <Compile Include="ReadImg.Designer.cs">
       <DependentUpon>ReadImg.cs</DependentUpon>
     </Compile>
+    <Compile Include="Script.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Script.Designer.cs">
+      <DependentUpon>Script.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Animation.resx">
       <DependentUpon>Animation.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +96,9 @@
     </Compile>
     <EmbeddedResource Include="ReadImg.resx">
       <DependentUpon>ReadImg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Script.resx">
+      <DependentUpon>Script.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
