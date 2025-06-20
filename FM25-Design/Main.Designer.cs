@@ -247,21 +247,6 @@
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.listBox8 = new System.Windows.Forms.ListBox();
             this.tabPage20 = new System.Windows.Forms.TabPage();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.label69 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.label70 = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.panel60 = new System.Windows.Forms.Panel();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
             this.listBox9 = new System.Windows.Forms.ListBox();
             this.tabPage21 = new System.Windows.Forms.TabPage();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
@@ -343,8 +328,6 @@
             this.toolStrip4.SuspendLayout();
             this.tabPage19.SuspendLayout();
             this.tabPage20.SuspendLayout();
-            this.groupBox15.SuspendLayout();
-            this.groupBox16.SuspendLayout();
             this.tabPage21.SuspendLayout();
             this.groupBox17.SuspendLayout();
             this.groupBox18.SuspendLayout();
@@ -2472,12 +2455,6 @@
             // 
             // tabPage20
             // 
-            this.tabPage20.Controls.Add(this.groupBox15);
-            this.tabPage20.Controls.Add(this.groupBox16);
-            this.tabPage20.Controls.Add(this.panel60);
-            this.tabPage20.Controls.Add(this.label73);
-            this.tabPage20.Controls.Add(this.label74);
-            this.tabPage20.Controls.Add(this.label75);
             this.tabPage20.Controls.Add(this.listBox9);
             this.tabPage20.Location = new System.Drawing.Point(4, 22);
             this.tabPage20.Name = "tabPage20";
@@ -2486,167 +2463,14 @@
             this.tabPage20.Text = "Common Throw Reaction";
             this.tabPage20.UseVisualStyleBackColor = true;
             // 
-            // groupBox15
-            // 
-            this.groupBox15.Controls.Add(this.tableLayoutPanel5);
-            this.groupBox15.Location = new System.Drawing.Point(200, 178);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(258, 177);
-            this.groupBox15.TabIndex = 15;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Create Command";
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.0813F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9187F));
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(6, 19);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 8;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(246, 152);
-            this.tableLayoutPanel5.TabIndex = 0;
-            // 
-            // groupBox16
-            // 
-            this.groupBox16.Controls.Add(this.label69);
-            this.groupBox16.Controls.Add(this.comboBox8);
-            this.groupBox16.Controls.Add(this.label70);
-            this.groupBox16.Controls.Add(this.comboBox9);
-            this.groupBox16.Controls.Add(this.comboBox10);
-            this.groupBox16.Controls.Add(this.comboBox11);
-            this.groupBox16.Controls.Add(this.label71);
-            this.groupBox16.Controls.Add(this.label72);
-            this.groupBox16.Location = new System.Drawing.Point(200, 62);
-            this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(258, 110);
-            this.groupBox16.TabIndex = 9;
-            this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "Command Destination";
-            // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(30, 85);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(58, 13);
-            this.label69.TabIndex = 13;
-            this.label69.Text = "Crouching:";
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(94, 82);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(158, 21);
-            this.comboBox8.TabIndex = 14;
-            // 
-            // label70
-            // 
-            this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(15, 64);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(73, 13);
-            this.label70.TabIndex = 12;
-            this.label70.Text = "Standing (far):";
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(94, 61);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(158, 21);
-            this.comboBox9.TabIndex = 13;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(94, 40);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(158, 21);
-            this.comboBox10.TabIndex = 12;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(94, 19);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(158, 21);
-            this.comboBox11.TabIndex = 0;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(66, 22);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(22, 13);
-            this.label71.TabIndex = 10;
-            this.label71.Text = "Air:";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(6, 43);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(82, 13);
-            this.label72.TabIndex = 11;
-            this.label72.Text = "Standing (near):";
-            // 
-            // panel60
-            // 
-            this.panel60.Location = new System.Drawing.Point(282, 18);
-            this.panel60.Name = "panel60";
-            this.panel60.Size = new System.Drawing.Size(98, 27);
-            this.panel60.TabIndex = 8;
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(197, 24);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(79, 13);
-            this.label73.TabIndex = 7;
-            this.label73.Text = "Command time:";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(2, 356);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(45, 9);
-            this.label74.TabIndex = 6;
-            this.label74.Text = "Low priority";
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(3, 2);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(47, 9);
-            this.label75.TabIndex = 5;
-            this.label75.Text = "High priority";
-            // 
             // listBox9
             // 
+            this.listBox9.Dock = System.Windows.Forms.DockStyle.Left;
             this.listBox9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.listBox9.FormattingEnabled = true;
-            this.listBox9.Location = new System.Drawing.Point(0, 13);
+            this.listBox9.Location = new System.Drawing.Point(0, 0);
             this.listBox9.Name = "listBox9";
-            this.listBox9.Size = new System.Drawing.Size(178, 342);
+            this.listBox9.Size = new System.Drawing.Size(194, 368);
             this.listBox9.TabIndex = 4;
             // 
             // tabPage21
@@ -3029,10 +2853,6 @@
             this.tabPage19.ResumeLayout(false);
             this.tabPage19.PerformLayout();
             this.tabPage20.ResumeLayout(false);
-            this.tabPage20.PerformLayout();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox16.ResumeLayout(false);
-            this.groupBox16.PerformLayout();
             this.tabPage21.ResumeLayout(false);
             this.groupBox17.ResumeLayout(false);
             this.groupBox18.ResumeLayout(false);
@@ -3277,21 +3097,6 @@
         private System.Windows.Forms.TabPage tabPage19;
         private System.Windows.Forms.ListBox listBox8;
         private System.Windows.Forms.TabPage tabPage20;
-        private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label72;
-        private System.Windows.Forms.Panel panel60;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.Label label75;
         private System.Windows.Forms.ListBox listBox9;
         private System.Windows.Forms.TabPage tabPage21;
         private System.Windows.Forms.GroupBox groupBox17;
