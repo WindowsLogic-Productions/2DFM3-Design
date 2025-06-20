@@ -244,19 +244,7 @@
             this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
             this.panel55 = new System.Windows.Forms.Panel();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tabPage19 = new System.Windows.Forms.TabPage();
-            this.panel56 = new System.Windows.Forms.Panel();
-            this.panel57 = new System.Windows.Forms.Panel();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.panel58 = new System.Windows.Forms.Panel();
-            this.panel59 = new System.Windows.Forms.Panel();
-            this.label68 = new System.Windows.Forms.Label();
             this.listBox8 = new System.Windows.Forms.ListBox();
             this.tabPage20 = new System.Windows.Forms.TabPage();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
@@ -290,13 +278,6 @@
             this.panel63 = new System.Windows.Forms.Panel();
             this.listBox10 = new System.Windows.Forms.ListBox();
             this.panel64 = new System.Windows.Forms.Panel();
-            this.tabPage22 = new System.Windows.Forms.TabPage();
-            this.panel65 = new System.Windows.Forms.Panel();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.listBox11 = new System.Windows.Forms.ListBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.checkBox18 = new System.Windows.Forms.CheckBox();
@@ -310,6 +291,7 @@
             this.comboBox18 = new System.Windows.Forms.ComboBox();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -359,7 +341,6 @@
             this.panel51.SuspendLayout();
             this.panel54.SuspendLayout();
             this.toolStrip4.SuspendLayout();
-            this.tabPage18.SuspendLayout();
             this.tabPage19.SuspendLayout();
             this.tabPage20.SuspendLayout();
             this.groupBox15.SuspendLayout();
@@ -368,8 +349,6 @@
             this.groupBox17.SuspendLayout();
             this.groupBox18.SuspendLayout();
             this.groupBox19.SuspendLayout();
-            this.tabPage22.SuspendLayout();
-            this.panel65.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -2145,11 +2124,9 @@
             // 
             this.tabControl5.Controls.Add(this.tabPage16);
             this.tabControl5.Controls.Add(this.tabPage17);
-            this.tabControl5.Controls.Add(this.tabPage18);
             this.tabControl5.Controls.Add(this.tabPage19);
             this.tabControl5.Controls.Add(this.tabPage20);
             this.tabControl5.Controls.Add(this.tabPage21);
-            this.tabControl5.Controls.Add(this.tabPage22);
             this.tabControl5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl5.Location = new System.Drawing.Point(3, 3);
             this.tabControl5.Name = "tabControl5";
@@ -2332,7 +2309,7 @@
             this.tabPage17.Location = new System.Drawing.Point(4, 22);
             this.tabPage17.Name = "tabPage17";
             this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage17.Size = new System.Drawing.Size(658, 368);
+            this.tabPage17.Size = new System.Drawing.Size(778, 368);
             this.tabPage17.TabIndex = 1;
             this.tabPage17.Text = "Script";
             this.tabPage17.UseVisualStyleBackColor = true;
@@ -2404,7 +2381,7 @@
             this.panel54.Controls.Add(this.label62);
             this.panel54.Location = new System.Drawing.Point(0, 0);
             this.panel54.Name = "panel54";
-            this.panel54.Size = new System.Drawing.Size(664, 24);
+            this.panel54.Size = new System.Drawing.Size(777, 24);
             this.panel54.TabIndex = 2;
             // 
             // label62
@@ -2469,151 +2446,19 @@
             this.panel55.BackColor = System.Drawing.Color.DimGray;
             this.panel55.Location = new System.Drawing.Point(263, 22);
             this.panel55.Name = "panel55";
-            this.panel55.Size = new System.Drawing.Size(401, 352);
+            this.panel55.Size = new System.Drawing.Size(515, 352);
             this.panel55.TabIndex = 0;
-            // 
-            // tabPage18
-            // 
-            this.tabPage18.Controls.Add(this.label63);
-            this.tabPage18.Controls.Add(this.label64);
-            this.tabPage18.Controls.Add(this.label65);
-            this.tabPage18.Controls.Add(this.tableLayoutPanel4);
-            this.tabPage18.Location = new System.Drawing.Point(4, 22);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage18.Size = new System.Drawing.Size(658, 368);
-            this.tabPage18.TabIndex = 2;
-            this.tabPage18.Text = "Reaction";
-            this.tabPage18.UseVisualStyleBackColor = true;
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(381, 3);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(120, 13);
-            this.label63.TabIndex = 3;
-            this.label63.Text = "Object When Hit Issued";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(194, 3);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(53, 13);
-            this.label64.TabIndex = 2;
-            this.label64.Text = "Allocation";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(6, 3);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(75, 13);
-            this.label65.TabIndex = 1;
-            this.label65.Text = "Attack Branch";
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 189F));
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(6, 19);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 17;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(563, 343);
-            this.tableLayoutPanel4.TabIndex = 0;
             // 
             // tabPage19
             // 
-            this.tabPage19.Controls.Add(this.panel56);
-            this.tabPage19.Controls.Add(this.panel57);
-            this.tabPage19.Controls.Add(this.label66);
-            this.tabPage19.Controls.Add(this.label67);
-            this.tabPage19.Controls.Add(this.panel58);
-            this.tabPage19.Controls.Add(this.panel59);
-            this.tabPage19.Controls.Add(this.label68);
+            this.tabPage19.Controls.Add(this.checkBox15);
             this.tabPage19.Controls.Add(this.listBox8);
             this.tabPage19.Location = new System.Drawing.Point(4, 22);
             this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Size = new System.Drawing.Size(658, 368);
+            this.tabPage19.Size = new System.Drawing.Size(778, 368);
             this.tabPage19.TabIndex = 3;
-            this.tabPage19.Text = "Throw Reaction";
+            this.tabPage19.Text = "Attack Branch";
             this.tabPage19.UseVisualStyleBackColor = true;
-            // 
-            // panel56
-            // 
-            this.panel56.Location = new System.Drawing.Point(463, 6);
-            this.panel56.Name = "panel56";
-            this.panel56.Size = new System.Drawing.Size(54, 27);
-            this.panel56.TabIndex = 10;
-            // 
-            // panel57
-            // 
-            this.panel57.Location = new System.Drawing.Point(379, 6);
-            this.panel57.Name = "panel57";
-            this.panel57.Size = new System.Drawing.Size(54, 27);
-            this.panel57.TabIndex = 9;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(440, 12);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(17, 13);
-            this.label66.TabIndex = 8;
-            this.label66.Text = "Y:";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(356, 12);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(17, 13);
-            this.label67.TabIndex = 7;
-            this.label67.Text = "X:";
-            // 
-            // panel58
-            // 
-            this.panel58.Location = new System.Drawing.Point(287, 6);
-            this.panel58.Name = "panel58";
-            this.panel58.Size = new System.Drawing.Size(54, 27);
-            this.panel58.TabIndex = 6;
-            // 
-            // panel59
-            // 
-            this.panel59.BackColor = System.Drawing.Color.DimGray;
-            this.panel59.Location = new System.Drawing.Point(177, 39);
-            this.panel59.Name = "panel59";
-            this.panel59.Size = new System.Drawing.Size(481, 328);
-            this.panel59.TabIndex = 5;
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(204, 12);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(77, 13);
-            this.label68.TabIndex = 4;
-            this.label68.Text = "Image number:";
             // 
             // listBox8
             // 
@@ -2638,7 +2483,7 @@
             this.tabPage20.Name = "tabPage20";
             this.tabPage20.Size = new System.Drawing.Size(778, 368);
             this.tabPage20.TabIndex = 4;
-            this.tabPage20.Text = "Commands";
+            this.tabPage20.Text = "Common Throw Reaction";
             this.tabPage20.UseVisualStyleBackColor = true;
             // 
             // groupBox15
@@ -2812,9 +2657,9 @@
             this.tabPage21.Controls.Add(this.panel64);
             this.tabPage21.Location = new System.Drawing.Point(4, 22);
             this.tabPage21.Name = "tabPage21";
-            this.tabPage21.Size = new System.Drawing.Size(658, 368);
+            this.tabPage21.Size = new System.Drawing.Size(778, 368);
             this.tabPage21.TabIndex = 5;
-            this.tabPage21.Text = "CPU Algorithm";
+            this.tabPage21.Text = "Character Select Screen";
             this.tabPage21.UseVisualStyleBackColor = true;
             // 
             // groupBox17
@@ -2959,75 +2804,6 @@
             this.panel64.Size = new System.Drawing.Size(240, 368);
             this.panel64.TabIndex = 6;
             // 
-            // tabPage22
-            // 
-            this.tabPage22.Controls.Add(this.panel65);
-            this.tabPage22.Controls.Add(this.label80);
-            this.tabPage22.Controls.Add(this.listBox11);
-            this.tabPage22.Controls.Add(this.checkBox15);
-            this.tabPage22.Location = new System.Drawing.Point(4, 22);
-            this.tabPage22.Name = "tabPage22";
-            this.tabPage22.Size = new System.Drawing.Size(658, 368);
-            this.tabPage22.TabIndex = 6;
-            this.tabPage22.Text = "Story";
-            this.tabPage22.UseVisualStyleBackColor = true;
-            // 
-            // panel65
-            // 
-            this.panel65.Controls.Add(this.comboBox12);
-            this.panel65.Controls.Add(this.label79);
-            this.panel65.Location = new System.Drawing.Point(184, 26);
-            this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(471, 339);
-            this.panel65.TabIndex = 16;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(85, 35);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(158, 21);
-            this.comboBox12.TabIndex = 13;
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(41, 38);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(38, 13);
-            this.label79.TabIndex = 12;
-            this.label79.Text = "Demo:";
-            // 
-            // label80
-            // 
-            this.label80.AutoSize = true;
-            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.Location = new System.Drawing.Point(3, 356);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(57, 9);
-            this.label80.TabIndex = 15;
-            this.label80.Text = "Free space: XX";
-            // 
-            // listBox11
-            // 
-            this.listBox11.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.listBox11.FormattingEnabled = true;
-            this.listBox11.Location = new System.Drawing.Point(0, 26);
-            this.listBox11.Name = "listBox11";
-            this.listBox11.Size = new System.Drawing.Size(178, 329);
-            this.listBox11.TabIndex = 14;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(3, 3);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(113, 17);
-            this.checkBox15.TabIndex = 13;
-            this.checkBox15.Text = "Enable story mode";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
             // checkBox16
             // 
             this.checkBox16.AutoSize = true;
@@ -3148,6 +2924,16 @@
             this.label49.TabIndex = 24;
             this.label49.Text = "Opening demo screen:";
             // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(199, 19);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(66, 17);
+            this.checkBox15.TabIndex = 4;
+            this.checkBox15.Text = "Damage";
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3240,8 +3026,6 @@
             this.panel54.PerformLayout();
             this.toolStrip4.ResumeLayout(false);
             this.toolStrip4.PerformLayout();
-            this.tabPage18.ResumeLayout(false);
-            this.tabPage18.PerformLayout();
             this.tabPage19.ResumeLayout(false);
             this.tabPage19.PerformLayout();
             this.tabPage20.ResumeLayout(false);
@@ -3255,10 +3039,6 @@
             this.groupBox18.PerformLayout();
             this.groupBox19.ResumeLayout(false);
             this.groupBox19.PerformLayout();
-            this.tabPage22.ResumeLayout(false);
-            this.tabPage22.PerformLayout();
-            this.panel65.ResumeLayout(false);
-            this.panel65.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3494,19 +3274,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButton15;
         private System.Windows.Forms.ToolStripButton toolStripButton16;
         private System.Windows.Forms.Panel panel55;
-        private System.Windows.Forms.TabPage tabPage18;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.TabPage tabPage19;
-        private System.Windows.Forms.Panel panel56;
-        private System.Windows.Forms.Panel panel57;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private System.Windows.Forms.Panel panel58;
-        private System.Windows.Forms.Panel panel59;
-        private System.Windows.Forms.Label label68;
         private System.Windows.Forms.ListBox listBox8;
         private System.Windows.Forms.TabPage tabPage20;
         private System.Windows.Forms.GroupBox groupBox15;
@@ -3540,12 +3308,6 @@
         private System.Windows.Forms.Panel panel63;
         private System.Windows.Forms.ListBox listBox10;
         private System.Windows.Forms.Panel panel64;
-        private System.Windows.Forms.TabPage tabPage22;
-        private System.Windows.Forms.Panel panel65;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.ListBox listBox11;
         private System.Windows.Forms.CheckBox checkBox15;
     }
 }
