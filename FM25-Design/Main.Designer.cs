@@ -45,6 +45,9 @@
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editorColoursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundColourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundLineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.centralAxisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackFrameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frameEditMethodToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fromTheCornerwToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fromTheCentreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -108,6 +111,29 @@
             this.tabPage20 = new System.Windows.Forms.TabPage();
             this.listBox9 = new System.Windows.Forms.ListBox();
             this.tabPage21 = new System.Windows.Forms.TabPage();
+            this.label66 = new System.Windows.Forms.Label();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.label83 = new System.Windows.Forms.Label();
+            this.panel65 = new System.Windows.Forms.Panel();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.panel66 = new System.Windows.Forms.Panel();
+            this.label80 = new System.Windows.Forms.Label();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.panel64 = new System.Windows.Forms.Panel();
+            this.label77 = new System.Windows.Forms.Label();
+            this.panel61 = new System.Windows.Forms.Panel();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.panel62 = new System.Windows.Forms.Panel();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
             this.panel42 = new System.Windows.Forms.Panel();
             this.panel43 = new System.Windows.Forms.Panel();
             this.panel44 = new System.Windows.Forms.Panel();
@@ -275,29 +301,9 @@
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.panel61 = new System.Windows.Forms.Panel();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.panel62 = new System.Windows.Forms.Panel();
-            this.label80 = new System.Windows.Forms.Label();
-            this.panel63 = new System.Windows.Forms.Panel();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.panel64 = new System.Windows.Forms.Panel();
-            this.label83 = new System.Windows.Forms.Label();
-            this.panel65 = new System.Windows.Forms.Panel();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.panel66 = new System.Windows.Forms.Panel();
-            this.label66 = new System.Windows.Forms.Label();
-            this.panel45 = new System.Windows.Forms.Panel();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label68 = new System.Windows.Forms.Label();
-            this.panel46 = new System.Windows.Forms.Panel();
+            this.collisionFrameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.smashedFrameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thrownFrameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -378,21 +384,21 @@
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Text = "&File";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.newToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.newToolStripMenuItem.Text = "New";
+            this.newToolStripMenuItem.Text = "&New";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Text = "&Open";
             // 
             // toolStripSeparator2
             // 
@@ -404,7 +410,7 @@
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Text = "&Save";
             // 
             // saveAsToolStripMenuItem
             // 
@@ -412,7 +418,7 @@
             this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.saveAsToolStripMenuItem.Text = "Save as...";
+            this.saveAsToolStripMenuItem.Text = "Save &as...";
             // 
             // toolStripSeparator1
             // 
@@ -424,7 +430,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Text = "&Exit";
             // 
             // projectToolStripMenuItem
             // 
@@ -434,24 +440,26 @@
             this.finaliseAndCompileToolStripMenuItem});
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
             this.projectToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
-            this.projectToolStripMenuItem.Text = "Project";
+            this.projectToolStripMenuItem.Text = "&Project";
             // 
             // testPlayToolStripMenuItem
             // 
             this.testPlayToolStripMenuItem.Name = "testPlayToolStripMenuItem";
-            this.testPlayToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.testPlayToolStripMenuItem.Text = "Test play...";
+            this.testPlayToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.T)));
+            this.testPlayToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.testPlayToolStripMenuItem.Text = "&Test play...";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(188, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(224, 6);
             // 
             // finaliseAndCompileToolStripMenuItem
             // 
             this.finaliseAndCompileToolStripMenuItem.Name = "finaliseAndCompileToolStripMenuItem";
-            this.finaliseAndCompileToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.finaliseAndCompileToolStripMenuItem.Text = "Finalise and compile...";
+            this.finaliseAndCompileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F)));
+            this.finaliseAndCompileToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
+            this.finaliseAndCompileToolStripMenuItem.Text = "&Finalise and compile...";
             // 
             // optionsToolStripMenuItem
             // 
@@ -469,16 +477,40 @@
             // editorColoursToolStripMenuItem
             // 
             this.editorColoursToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.backgroundColourToolStripMenuItem});
+            this.backgroundColourToolStripMenuItem,
+            this.backgroundLineToolStripMenuItem,
+            this.centralAxisToolStripMenuItem,
+            this.attackFrameToolStripMenuItem,
+            this.collisionFrameToolStripMenuItem,
+            this.smashedFrameToolStripMenuItem,
+            this.thrownFrameToolStripMenuItem});
             this.editorColoursToolStripMenuItem.Name = "editorColoursToolStripMenuItem";
-            this.editorColoursToolStripMenuItem.Size = new System.Drawing.Size(480, 22);
+            this.editorColoursToolStripMenuItem.Size = new System.Drawing.Size(518, 22);
             this.editorColoursToolStripMenuItem.Text = "Editor colours";
             // 
             // backgroundColourToolStripMenuItem
             // 
             this.backgroundColourToolStripMenuItem.Name = "backgroundColourToolStripMenuItem";
-            this.backgroundColourToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.backgroundColourToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.backgroundColourToolStripMenuItem.Text = "Background colour";
+            // 
+            // backgroundLineToolStripMenuItem
+            // 
+            this.backgroundLineToolStripMenuItem.Name = "backgroundLineToolStripMenuItem";
+            this.backgroundLineToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.backgroundLineToolStripMenuItem.Text = "Background line";
+            // 
+            // centralAxisToolStripMenuItem
+            // 
+            this.centralAxisToolStripMenuItem.Name = "centralAxisToolStripMenuItem";
+            this.centralAxisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.centralAxisToolStripMenuItem.Text = "Central axis";
+            // 
+            // attackFrameToolStripMenuItem
+            // 
+            this.attackFrameToolStripMenuItem.Name = "attackFrameToolStripMenuItem";
+            this.attackFrameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.attackFrameToolStripMenuItem.Text = "Attack frame";
             // 
             // frameEditMethodToolStripMenuItem
             // 
@@ -486,19 +518,19 @@
             this.fromTheCornerwToolStripMenuItem,
             this.fromTheCentreToolStripMenuItem});
             this.frameEditMethodToolStripMenuItem.Name = "frameEditMethodToolStripMenuItem";
-            this.frameEditMethodToolStripMenuItem.Size = new System.Drawing.Size(480, 22);
+            this.frameEditMethodToolStripMenuItem.Size = new System.Drawing.Size(518, 22);
             this.frameEditMethodToolStripMenuItem.Text = "Frame edit method";
             // 
             // fromTheCornerwToolStripMenuItem
             // 
             this.fromTheCornerwToolStripMenuItem.Name = "fromTheCornerwToolStripMenuItem";
-            this.fromTheCornerwToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.fromTheCornerwToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fromTheCornerwToolStripMenuItem.Text = "From the corner";
             // 
             // fromTheCentreToolStripMenuItem
             // 
             this.fromTheCentreToolStripMenuItem.Name = "fromTheCentreToolStripMenuItem";
-            this.fromTheCentreToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.fromTheCentreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fromTheCentreToolStripMenuItem.Text = "From the centre";
             // 
             // nameFieldToolStripMenuItem
@@ -506,7 +538,7 @@
             this.nameFieldToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.doubleclickToEditToolStripMenuItem});
             this.nameFieldToolStripMenuItem.Name = "nameFieldToolStripMenuItem";
-            this.nameFieldToolStripMenuItem.Size = new System.Drawing.Size(480, 22);
+            this.nameFieldToolStripMenuItem.Size = new System.Drawing.Size(518, 22);
             this.nameFieldToolStripMenuItem.Text = "Name field";
             // 
             // doubleclickToEditToolStripMenuItem
@@ -518,20 +550,23 @@
             // placeSubwindowsInFrontOfMainWindowToolStripMenuItem
             // 
             this.placeSubwindowsInFrontOfMainWindowToolStripMenuItem.Name = "placeSubwindowsInFrontOfMainWindowToolStripMenuItem";
-            this.placeSubwindowsInFrontOfMainWindowToolStripMenuItem.Size = new System.Drawing.Size(480, 22);
+            this.placeSubwindowsInFrontOfMainWindowToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.W)));
+            this.placeSubwindowsInFrontOfMainWindowToolStripMenuItem.Size = new System.Drawing.Size(518, 22);
             this.placeSubwindowsInFrontOfMainWindowToolStripMenuItem.Text = "Place sub-windows in front of main window";
             // 
             // displayToolStripMenuItem
             // 
             this.displayToolStripMenuItem.Name = "displayToolStripMenuItem";
-            this.displayToolStripMenuItem.Size = new System.Drawing.Size(480, 22);
+            this.displayToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.I)));
+            this.displayToolStripMenuItem.Size = new System.Drawing.Size(518, 22);
             this.displayToolStripMenuItem.Text = "Display images in a smaller size (for memory limited devices)";
             // 
             // whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem
             // 
             this.whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem.Name = "whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem" +
     "";
-            this.whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem.Size = new System.Drawing.Size(480, 22);
+            this.whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.A)));
+            this.whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem.Size = new System.Drawing.Size(518, 22);
             this.whenCreateAnAttackFrameAReactionIsAutomaticallyPlacedInFrontOfItToolStripMenuItem.Text = "When create an Attack Frame, a Reaction is automatically placed in front of it";
             // 
             // helpToolStripMenuItem
@@ -545,8 +580,9 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
-            this.aboutToolStripMenuItem.Text = "About...";
+            this.aboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Text = "&About...";
             // 
             // tabControl1
             // 
@@ -1115,6 +1151,197 @@
             this.tabPage21.TabIndex = 5;
             this.tabPage21.Text = "Character Select Screen";
             this.tabPage21.UseVisualStyleBackColor = true;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(20, 216);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(134, 13);
+            this.label66.TabIndex = 60;
+            this.label66.Text = "Select P2 multplayer width:";
+            // 
+            // panel45
+            // 
+            this.panel45.Location = new System.Drawing.Point(274, 210);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(62, 27);
+            this.panel45.TabIndex = 59;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(251, 216);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(17, 13);
+            this.label67.TabIndex = 58;
+            this.label67.Text = "Y:";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Location = new System.Drawing.Point(160, 216);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(17, 13);
+            this.label68.TabIndex = 56;
+            this.label68.Text = "X:";
+            // 
+            // panel46
+            // 
+            this.panel46.Location = new System.Drawing.Point(183, 210);
+            this.panel46.Name = "panel46";
+            this.panel46.Size = new System.Drawing.Size(62, 27);
+            this.panel46.TabIndex = 57;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(20, 150);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(134, 13);
+            this.label83.TabIndex = 55;
+            this.label83.Text = "Select P1 multplayer width:";
+            // 
+            // panel65
+            // 
+            this.panel65.Location = new System.Drawing.Point(274, 144);
+            this.panel65.Name = "panel65";
+            this.panel65.Size = new System.Drawing.Size(62, 27);
+            this.panel65.TabIndex = 54;
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(251, 150);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(17, 13);
+            this.label84.TabIndex = 53;
+            this.label84.Text = "Y:";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(160, 150);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(17, 13);
+            this.label85.TabIndex = 51;
+            this.label85.Text = "X:";
+            // 
+            // panel66
+            // 
+            this.panel66.Location = new System.Drawing.Point(183, 144);
+            this.panel66.Name = "panel66";
+            this.panel66.Size = new System.Drawing.Size(62, 27);
+            this.panel66.TabIndex = 52;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Location = new System.Drawing.Point(74, 183);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(80, 13);
+            this.label80.TabIndex = 50;
+            this.label80.Text = "Select player 2:";
+            // 
+            // panel63
+            // 
+            this.panel63.Location = new System.Drawing.Point(274, 177);
+            this.panel63.Name = "panel63";
+            this.panel63.Size = new System.Drawing.Size(62, 27);
+            this.panel63.TabIndex = 49;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(251, 183);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(17, 13);
+            this.label81.TabIndex = 48;
+            this.label81.Text = "Y:";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(160, 183);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(17, 13);
+            this.label82.TabIndex = 46;
+            this.label82.Text = "X:";
+            // 
+            // panel64
+            // 
+            this.panel64.Location = new System.Drawing.Point(183, 177);
+            this.panel64.Name = "panel64";
+            this.panel64.Size = new System.Drawing.Size(62, 27);
+            this.panel64.TabIndex = 47;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(74, 117);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(80, 13);
+            this.label77.TabIndex = 45;
+            this.label77.Text = "Select player 1:";
+            // 
+            // panel61
+            // 
+            this.panel61.Location = new System.Drawing.Point(274, 111);
+            this.panel61.Name = "panel61";
+            this.panel61.Size = new System.Drawing.Size(62, 27);
+            this.panel61.TabIndex = 44;
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Location = new System.Drawing.Point(251, 117);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(17, 13);
+            this.label78.TabIndex = 43;
+            this.label78.Text = "Y:";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Location = new System.Drawing.Point(160, 117);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(17, 13);
+            this.label79.TabIndex = 41;
+            this.label79.Text = "X:";
+            // 
+            // panel62
+            // 
+            this.panel62.Location = new System.Drawing.Point(183, 111);
+            this.panel62.Name = "panel62";
+            this.panel62.Size = new System.Drawing.Size(62, 27);
+            this.panel62.TabIndex = 42;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Location = new System.Drawing.Point(13, 84);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(141, 13);
+            this.label76.TabIndex = 40;
+            this.label76.Text = "Vertical / Horizontal number:";
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Location = new System.Drawing.Point(70, 52);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(84, 13);
+            this.label75.TabIndex = 39;
+            this.label75.Text = "Character width:";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(36, 19);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(118, 13);
+            this.label74.TabIndex = 38;
+            this.label74.Text = "Character start position:";
             // 
             // panel42
             // 
@@ -2761,196 +2988,23 @@
             this.listBox1.Size = new System.Drawing.Size(120, 400);
             this.listBox1.TabIndex = 0;
             // 
-            // label74
+            // collisionFrameToolStripMenuItem
             // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(36, 19);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(118, 13);
-            this.label74.TabIndex = 38;
-            this.label74.Text = "Character start position:";
+            this.collisionFrameToolStripMenuItem.Name = "collisionFrameToolStripMenuItem";
+            this.collisionFrameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.collisionFrameToolStripMenuItem.Text = "Collision frame";
             // 
-            // label75
+            // smashedFrameToolStripMenuItem
             // 
-            this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(70, 52);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(84, 13);
-            this.label75.TabIndex = 39;
-            this.label75.Text = "Character width:";
+            this.smashedFrameToolStripMenuItem.Name = "smashedFrameToolStripMenuItem";
+            this.smashedFrameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.smashedFrameToolStripMenuItem.Text = "Smashed frame";
             // 
-            // label76
+            // thrownFrameToolStripMenuItem
             // 
-            this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(13, 84);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(141, 13);
-            this.label76.TabIndex = 40;
-            this.label76.Text = "Vertical / Horizontal number:";
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(74, 117);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(80, 13);
-            this.label77.TabIndex = 45;
-            this.label77.Text = "Select player 1:";
-            // 
-            // panel61
-            // 
-            this.panel61.Location = new System.Drawing.Point(274, 111);
-            this.panel61.Name = "panel61";
-            this.panel61.Size = new System.Drawing.Size(62, 27);
-            this.panel61.TabIndex = 44;
-            // 
-            // label78
-            // 
-            this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(251, 117);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(17, 13);
-            this.label78.TabIndex = 43;
-            this.label78.Text = "Y:";
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(160, 117);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(17, 13);
-            this.label79.TabIndex = 41;
-            this.label79.Text = "X:";
-            // 
-            // panel62
-            // 
-            this.panel62.Location = new System.Drawing.Point(183, 111);
-            this.panel62.Name = "panel62";
-            this.panel62.Size = new System.Drawing.Size(62, 27);
-            this.panel62.TabIndex = 42;
-            // 
-            // label80
-            // 
-            this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(74, 183);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(80, 13);
-            this.label80.TabIndex = 50;
-            this.label80.Text = "Select player 2:";
-            // 
-            // panel63
-            // 
-            this.panel63.Location = new System.Drawing.Point(274, 177);
-            this.panel63.Name = "panel63";
-            this.panel63.Size = new System.Drawing.Size(62, 27);
-            this.panel63.TabIndex = 49;
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(251, 183);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(17, 13);
-            this.label81.TabIndex = 48;
-            this.label81.Text = "Y:";
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(160, 183);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(17, 13);
-            this.label82.TabIndex = 46;
-            this.label82.Text = "X:";
-            // 
-            // panel64
-            // 
-            this.panel64.Location = new System.Drawing.Point(183, 177);
-            this.panel64.Name = "panel64";
-            this.panel64.Size = new System.Drawing.Size(62, 27);
-            this.panel64.TabIndex = 47;
-            // 
-            // label83
-            // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(20, 150);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(134, 13);
-            this.label83.TabIndex = 55;
-            this.label83.Text = "Select P1 multplayer width:";
-            // 
-            // panel65
-            // 
-            this.panel65.Location = new System.Drawing.Point(274, 144);
-            this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(62, 27);
-            this.panel65.TabIndex = 54;
-            // 
-            // label84
-            // 
-            this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(251, 150);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(17, 13);
-            this.label84.TabIndex = 53;
-            this.label84.Text = "Y:";
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(160, 150);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(17, 13);
-            this.label85.TabIndex = 51;
-            this.label85.Text = "X:";
-            // 
-            // panel66
-            // 
-            this.panel66.Location = new System.Drawing.Point(183, 144);
-            this.panel66.Name = "panel66";
-            this.panel66.Size = new System.Drawing.Size(62, 27);
-            this.panel66.TabIndex = 52;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(20, 216);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(134, 13);
-            this.label66.TabIndex = 60;
-            this.label66.Text = "Select P2 multplayer width:";
-            // 
-            // panel45
-            // 
-            this.panel45.Location = new System.Drawing.Point(274, 210);
-            this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(62, 27);
-            this.panel45.TabIndex = 59;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(251, 216);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(17, 13);
-            this.label67.TabIndex = 58;
-            this.label67.Text = "Y:";
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(160, 216);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(17, 13);
-            this.label68.TabIndex = 56;
-            this.label68.Text = "X:";
-            // 
-            // panel46
-            // 
-            this.panel46.Location = new System.Drawing.Point(183, 210);
-            this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(62, 27);
-            this.panel46.TabIndex = 57;
+            this.thrownFrameToolStripMenuItem.Name = "thrownFrameToolStripMenuItem";
+            this.thrownFrameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thrownFrameToolStripMenuItem.Text = "Thrown frame";
             // 
             // Main
             // 
@@ -3325,6 +3379,12 @@
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.ToolStripMenuItem backgroundLineToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem centralAxisToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem attackFrameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem collisionFrameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem smashedFrameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thrownFrameToolStripMenuItem;
     }
 }
 

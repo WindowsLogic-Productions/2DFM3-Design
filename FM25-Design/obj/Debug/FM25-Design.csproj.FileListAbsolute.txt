@@ -1,0 +1,13 @@
+J:\Projects\2DFM3-Design\FM25-Design\bin\Debug\FM25-Design.exe
+J:\Projects\2DFM3-Design\FM25-Design\bin\Debug\FM25-Design.pdb
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25-Design.csprojAssemblyReference.cache
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25_Design.Animation.resources
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25_Design.Main.resources
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25_Design.NameEntry.resources
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25_Design.Properties.Resources.resources
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25_Design.ReadImg.resources
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25_Design.Script.resources
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25-Design.csproj.GenerateResource.cache
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25-Design.csproj.CoreCompileInputs.cache
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25-Design.exe
+J:\Projects\2DFM3-Design\FM25-Design\obj\Debug\FM25-Design.pdb
